@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Shoe from "./pages/Shoe";
