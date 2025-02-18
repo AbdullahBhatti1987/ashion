@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+
+.michroma-regular {
+  font-family: "Michroma", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.michroma-regular {
+  font-family: "Michroma", serif;
+  font-weight: 400;
+  font-style: normal;
+}
