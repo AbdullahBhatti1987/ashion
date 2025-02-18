@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Men from "./pages/Men";
@@ -9,10 +10,9 @@ import Blog from "./pages/Blog";
 import Kid from "./pages/Kid";
 import Beg from "./pages/Beg";
 import Register from "./pages/Register";
-import SignIn from "./pages/SignIn";
+import Signin from "./pages/Signin";
 import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Dashboard from "./components/Dashboard";
 
@@ -27,7 +27,7 @@ function App() {
       <Routes>
         <Route>
           <Route path="/register" element={<Register />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signin" element={<Signin />} />
          
         </Route>
         <Route>
