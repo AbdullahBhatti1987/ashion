@@ -30,7 +30,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="sticky top-0 w-full bg-slate-200 h-12 z-50">
+    <div className="sticky top-0 w-full bg-slate-200 h-12 z-50 shadow-lg">
       <div className="flex lg:w-10/12 w-full lg:px-0 px-6 mx-auto justify-between items-center h-full ">
         <div className="lg:w-1/4 w-full  flex justify-between items-center h-full">
           <img src={data.header.logo} className="min-w-24" alt="" />

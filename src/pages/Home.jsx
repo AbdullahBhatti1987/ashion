@@ -13,6 +13,8 @@ function Home() {
         <NewProducts />
         <Categories />
         <Rules />
+      </div>
+      <div className="w-full lg:px-0 px-6 mx-auto flex flex-col gap-10 py-6 overflow-hidden">
         <Slider />
       </div>
     </>

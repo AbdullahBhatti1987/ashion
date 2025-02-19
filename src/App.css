@@ -26,17 +26,3 @@
   width: 100%;
 }
 
-
-.running {
-  display: flex;
-  animation: running 1s linear infinite; 
-}
-
-@keyframes running {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}

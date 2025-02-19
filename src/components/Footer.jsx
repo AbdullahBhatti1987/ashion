@@ -44,7 +44,7 @@ function Footer() {
       <div className="w-full flex flex-col gap-4">
       {/* <div className="w-full grid col-span-2 justify-between items-center  lg:flex flex-col lg:justify-end gap-4"> */}
         <span className="uppercase text-lg font-bold">newsletter</span>
-        <div className="flex relative rounded-full w-full border-2 p-2 overflow-hidden">
+        <div className="flex relative rounded-full w-full border-2  overflow-hidden">
           <input
             type="email"
             value={email}
